@@ -1,0 +1,50 @@
+@import 'assets/scss/now-ui-kit/variables';
+@import 'assets/scss/now-ui-kit/mixins';
+
+// Plugins CSS
+@import "assets/scss/now-ui-kit/plugins/plugin-bootstrap-switch";
+@import "assets/scss/now-ui-kit/plugins/plugin-nouislider";
+@import "assets/scss/now-ui-kit/plugins/plugin-datepicker";
+
+// Core CSS
+@import "assets/scss/now-ui-kit/buttons";
+@import "assets/scss/now-ui-kit/inputs";
+@import "assets/scss/now-ui-kit/checkboxes-radio";
+@import "assets/scss/now-ui-kit/progress";
+@import "assets/scss/now-ui-kit/badges";
+@import "assets/scss/now-ui-kit/pagination";
+@import "assets/scss/now-ui-kit/typography";
+@import "assets/scss/now-ui-kit/misc";
+@import "assets/scss/now-ui-kit/pills";
+
+// components
+@import "assets/scss/now-ui-kit/nucleo-outline";
+
+@import "assets/scss/now-ui-kit/tabs";
+@import "assets/scss/now-ui-kit/navbar";
+@import "assets/scss/now-ui-kit/dropdown";
+@import "assets/scss/now-ui-kit/alerts";
+@import "assets/scss/now-ui-kit/images";
+@import "assets/scss/now-ui-kit/popups";
+@import "assets/scss/now-ui-kit/modals";
+@import "assets/scss/now-ui-kit/carousel";
+@import "assets/scss/now-ui-kit/footers";
+
+// Cards
+@import "assets/scss/now-ui-kit/cards";
+@import "assets/scss/now-ui-kit/cards/card-plain";
+@import "assets/scss/now-ui-kit/cards/card-signup";
+
+// example pages and sections
+@import "assets/scss/now-ui-kit/example-pages";
+@import "assets/scss/now-ui-kit/sections";
+
+
+@import "assets/scss/now-ui-kit/responsive";
+
+// Element UI plugins
+@import "assets/scss/now-ui-kit/element-ui-plugins/carousel";
+@import "assets/scss/now-ui-kit/element-ui-plugins/date_picker";
+@import "assets/scss/now-ui-kit/element-ui-plugins/input";
+@import "assets/scss/now-ui-kit/element-ui-plugins/tooltip";
+@import "assets/scss/now-ui-kit/element-ui-plugins/popover";

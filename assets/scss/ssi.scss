@@ -1,0 +1,120 @@
+html,
+body {
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+$primaryColor: #41b883;
+$whiteColor: #fff;
+$secondaryColor: #34495e;
+$blackColor: #000;
+
+.ssi-hr {
+  width: 20%;
+  background-color: $primaryColor;
+  margin-inline: auto;
+}
+.ssi-hr-2 {
+  width: 40%;
+}
+.ssi-link {
+  cursor: pointer;
+  transition: opacity 0.5s;
+  text-decoration: none !important;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.ssi-read-more,
+.ssi-read-less {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.pb-2 {
+  padding-bottom: 2.5rem;
+}
+.ssi-date {
+  font-size: 0.9rem;
+}
+.ssi-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  i.now-ui-icons {
+    margin-right: 0.5rem;
+  }
+}
+
+.d-fcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  margin-top: 2rem;
+  .ssi-fg-input.has-success.input-group-focus {
+    .input-group-text {
+      border-color: #1be611 !important;
+    }
+  }
+  .ssi-fg-input.has-danger {
+    .input-group-text {
+      border-color: #ffcfcf !important;
+    }
+  }
+}
+.f-column {
+  flex-direction: column;
+}
+
+.ssi-light-footer {
+  .container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .copyright {
+      padding: 0.5rem 0.7rem;
+      cursor: help;
+      transition: all 0.3s;
+      border-radius: 5px;
+      color: $blackColor !important;
+      &:hover {
+        background-color: $primaryColor;
+        color: $whiteColor !important;
+      }
+    }
+    li {
+      &:not(:last-child) {
+        margin-right: 0.6rem;
+      }
+    }
+    .nav-link {
+      transition: all 0.3s;
+      border-radius: 5px;
+      color: $blackColor !important;
+      &:hover {
+        color: $whiteColor !important;
+        background-color: $secondaryColor !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 988px) {
+  .ssi-light-footer {
+    .container {
+      .copyright {
+        &:hover {
+          background-color: $whiteColor;
+          color: $blackColor !important;
+        }
+      }
+    }
+  }
+}
+
+.no-margin {
+  margin: 0 !important;
+}
